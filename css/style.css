@@ -1,0 +1,233 @@
+body{
+   font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#f6f5f0 ;
+}
+.header{
+    width: 100%;
+    height: 50;
+    background-color: #f4f3ef;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items:center;
+}
+/* Estilos generales */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat';
+}
+
+.seccion-oscura {
+  color: white;
+  background-color: #F25571;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Montserrat', cursive;
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+}
+
+.btn-info {
+  font-size: 1.1rem;
+  margin: 20px;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.texto-blanco {
+  color: white;
+}
+
+
+
+header img{
+    width: 120px;
+    height: 30px;
+    
+}
+header .navbar a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-style: inherit;
+    color: #160747;
+    font-weight: 550px;
+    text-decoration: none;
+    margin-left: 40px; 
+    margin-top: 2px;
+}
+header .navbar a:hover{
+    color: #01be57;
+}
+header .menu_iconos{
+    margin-right: 40px;
+    justify-content: space-between;
+    margin: 0 40px 0 40px;
+
+
+}
+header .menu_iconos img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+main{
+  background-color: #f7f4e8;
+}
+
+/* COLUMAS */
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color:#f7f4e8;
+}
+.container .mycard{
+  position: relative;
+  max-width: 300px;
+  height: 200px;
+  background: #FFBF10;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.4s ease-in-out;
+}
+.container .mycard:hover {
+  height: auto;
+}
+.container .mycard .cimg{
+  position: relative;
+  width: 190px;
+  height: 200px;
+  top: -40px;
+  left: 50px;
+  z-index: 1;
+  align-items: center;
+}
+.container .mycard .cimg img{
+  max-width: 100%;
+  border-radius: 6px; 
+}
+
+.container .mycard .cdetalles{
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px ;
+  text-align: center;
+  color: black;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+.container .mycard:hover .cdetalles{
+  
+  visibility: visible;
+  opacity: 1;
+  margin-top: -50px;
+
+}
+
+/* PRESENTACIÓN EN KATAKANA*/
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sobre-mi {
+  height: 800%;
+  padding: 10px;
+}
+.mascot-imagen {
+  width: 320px;
+  height: 200px;
+  align-self:flex-start ;
+}
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+#resultado {
+  margin-top: 20px;
+}
+
+.pronunciacion {
+font-style: unset;
+  color:#f8da88;
+}
+/* FOOTER */
+.footer {
+  position: relative;
+  width: 100%;
+  background:  #01be57;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.menu-elem {
+  list-style: none;
+}
+.menu-icon {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 10px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.menu-icon:hover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
